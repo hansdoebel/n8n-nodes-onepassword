@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-onepassword",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node to fetch secrets and items from 1Password using a Service Account",
 	"license": "MIT",
 	"homepage": "https://github.com/hansdoebel/n8n-nodes-onepassword",
