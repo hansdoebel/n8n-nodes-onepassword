@@ -98,7 +98,7 @@ n8n evaluates expressions in credential fields at runtime, so a 1Password node p
 
 3. Run the workflow. The Slack call is made with the token resolved from 1Password — nothing is hardcoded in n8n.
 
-This mirrors n8n's official ["Set credentials dynamically"](https://n8n.io/workflows/2223) template. It works reliably for API key, bearer, basic-auth, and header-auth credential types. **OAuth2 flows are unreliable** because token exchange happens out-of-band — don't try to feed an OAuth2 client secret this way.
+This mirrors n8n's official ["Set credentials dynamically"](https://n8n.io/workflows/2223) template. It works reliably for API key, bearer, basic-auth, and header-auth credential types. **OAuth2 flows are unreliable** because token exchange happens out-of-band.
 
 ## Security
 
